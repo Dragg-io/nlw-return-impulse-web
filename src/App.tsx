@@ -1,5 +1,9 @@
 import { Widget } from "./components/Widget/Widget";
+import WppButton from "./components/WppButton/WppButton";
 
 export function App() {
-  return <Widget />
+  return <>
+    <WppButton />
+    <Widget />
+  </>
 }

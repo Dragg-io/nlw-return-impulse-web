@@ -66,7 +66,7 @@ export function WidgetForm() {
       }
 
       <footer className="text-xs text-neutral-400">
-        Feito com ❤️ por <a className="underline underline-offset-2" target={'_blank'} href="https://www.grimoria.com.br">Grimória</a>
+        Feito por <a className="underline underline-offset-2" target={'_blank'} href="/">Lucas Silva</a>
       </footer>
     </div >
   )
