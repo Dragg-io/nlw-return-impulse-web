@@ -3,7 +3,7 @@ import WppButton from "./components/WppButton/WppButton";
 
 export function App() {
   return <>
-    <WppButton />
-    <Widget />
+    {/* <WppButton />
+    <Widget /> */}
   </>
 }
