@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body{
-  @apply bg-[#32474a] text-zinc-100;
+  @apply bg-[#bff7ff] text-zinc-100;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
