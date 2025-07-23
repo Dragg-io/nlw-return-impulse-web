@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export function App() {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://addiante--devleoo1.sandbox.my.site.com/ESWBotAddiante1742584171174/assets/js/bootstrap.min.js";
+    script.src = "https://addiante.my.site.com/ESWChatbotAddianteSite1751912911775/assets/js/bootstrap.min.js";
     script.type = "text/javascript";
     script.onload = () => {
       try {
@@ -14,11 +14,11 @@ export function App() {
         window.embeddedservice_bootstrap.settings.language = "pt_BR";
         // @ts-ignore
         window.embeddedservice_bootstrap.init(
-          "00DHZ000004qvj3",
-          "Bot_Addiante",
-          "https://addiante--devleoo1.sandbox.my.site.com/ESWBotAddiante1742584171174",
+          "00DHr000003YtPL",
+          "Chatbot_Addiante_Site",
+          "https://addiante.my.site.com/ESWChatbotAddianteSite1751912911775",
           {
-            scrt2URL: "https://addiante--devleoo1.sandbox.my.salesforce-scrt.com",
+            scrt2URL: "https://addiante.my.salesforce-scrt.com",
           }
         );
       } catch (err) {
