@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export function App() {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://addiante.my.site.com/ESWChatbotAddianteSite1751912911775/assets/js/bootstrap.min.js";
+    script.src = "https://cdn.c360a.salesforce.com/beacon/c360a/a3af887d-712a-4a1a-843a-293d0d65420e/scripts/c360a.min.js";
     script.type = "text/javascript";
     script.onload = () => {
       try {
